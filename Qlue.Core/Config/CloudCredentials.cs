@@ -23,9 +23,9 @@ namespace Qlue
 					"sb",
 					this.ServiceNamespace,
 					"servicebus.windows.net",
-					"SharedSecretIssuer",
+					"SharedAccessKeyName",
 					this.IssuerName,
-					"SharedSecretValue",
+					"SharedAccessKey",
 					this.IssuerSecret
 				});
         }
