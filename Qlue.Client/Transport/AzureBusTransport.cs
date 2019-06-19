@@ -283,7 +283,7 @@ namespace Qlue
 
         private static TokenProvider GetTokenProvider(ICloudCredentials cloudCredentials)
         {
-            return TokenProvider.CreateSharedSecretTokenProvider(
+            return TokenProvider.CreateSharedAccessSignatureTokenProvider(
                 cloudCredentials.IssuerName,
                 cloudCredentials.IssuerSecret);
         }
